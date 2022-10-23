@@ -16,3 +16,10 @@ if(data[2]== "add"){
 
     add(note, oldNote)
 }
+if(data[2]==="delete"){
+    const id = data[3]
+    const oldNote = read()
+    const del = require ('./del')
+    del(id, oldNote)
+    console.log(read())
+}
