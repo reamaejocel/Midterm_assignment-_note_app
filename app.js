@@ -3,6 +3,7 @@ const write = require ('./write')
 const read = require ('./read')
 const present = require ('./present')
 
+const data = process.argv
 
 if(data[2]== "add"){
     const note ={
